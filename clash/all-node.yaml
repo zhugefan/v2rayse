@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-06 10:31:04
+# 创建时间：2023-05-06 10:33:00
 # 使用模版：ACL4SSR_Online_Full_MultiMode.ini
-# 节点数量：33
+# 节点数量：32
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -33,7 +33,6 @@ proxies:
   - {"name":"🇰🇷_KR_韩国\r","type":"ss","server":"43.201.85.49","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬_SG_新加坡\r_2","type":"trojan","server":"li1faiubsvdnasjp2.559xp5.cn","port":443,"udp":true,"password":"f0e93980-419f-4d05-ad92-bd9859c2dbed","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰_HK_香港","type":"vmess","server":"143.92.56.218","port":52333,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡\r_3","type":"trojan","server":"bacmlwrkoph.559xp5.cn","port":443,"udp":true,"password":"808841b0-6730-458c-b11f-d6c33011d605","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_1","type":"vmess","server":"27.124.45.119","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_2","type":"trojan","server":"nsafchjhtijntht.559xp5.cn","port":443,"udp":true,"password":"c519d477-7bde-430a-9667-c02b46c31d6d","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 美国_1","type":"vmess","server":"142.4.126.60","port":33392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -84,7 +83,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r"
       - "🇸🇬_SG_新加坡\r_2"
       - 🇭🇰_HK_香港
-      - "🇸🇬_SG_新加坡\r_3"
       - 🇸🇬_SG_新加坡_1
       - 🇸🇬_SG_新加坡_2
       - 🇺🇸 美国_1
@@ -123,7 +121,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r"
       - "🇸🇬_SG_新加坡\r_2"
       - 🇭🇰_HK_香港
-      - "🇸🇬_SG_新加坡\r_3"
       - 🇸🇬_SG_新加坡_1
       - 🇸🇬_SG_新加坡_2
       - 🇺🇸 美国_1
@@ -162,7 +159,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r"
       - "🇸🇬_SG_新加坡\r_2"
       - 🇭🇰_HK_香港
-      - "🇸🇬_SG_新加坡\r_3"
       - 🇸🇬_SG_新加坡_1
       - 🇸🇬_SG_新加坡_2
       - 🇺🇸 美国_1
@@ -201,7 +197,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r"
       - "🇸🇬_SG_新加坡\r_2"
       - 🇭🇰_HK_香港
-      - "🇸🇬_SG_新加坡\r_3"
       - 🇸🇬_SG_新加坡_1
       - 🇸🇬_SG_新加坡_2
       - 🇺🇸 美国_1
@@ -446,7 +441,6 @@ proxy-groups:
     proxies:
       - "🇸🇬_SG_新加坡\r_1"
       - "🇸🇬_SG_新加坡\r_2"
-      - "🇸🇬_SG_新加坡\r_3"
       - 🇸🇬_SG_新加坡_1
       - 🇸🇬_SG_新加坡_2
   - name: 🇰🇷 韩国节点
