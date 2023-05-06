@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-06 16:50:01
+# 创建时间：2023-05-06 16:55:09
 # 使用模版：ACL4SSR_Online_Full_MultiMode.ini
-# 节点数量：40
+# 节点数量：33
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸 美国_1","type":"vmess","server":"142.4.126.60","port":33392,"cipher":"auto","uuid":"","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国_1","type":"vmess","server":"142.4.126.60","port":33392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 美国_2","type":"vmess","server":"137.175.41.197","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 美国_3","type":"vmess","server":"198.2.206.37","port":33012,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"🇺🇸 美国_4","type":"vmess","server":"38.54.250.57","port":51431,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -54,13 +54,6 @@ proxies:
   - {"name":"🇰🇷 韩国 2","type":"ss","server":"43.201.85.49","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇯🇵 日本 1","type":"vmess","server":"vjp1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
   - {"name":"🇯🇵 日本 2","type":"trojan","server":"jp.stablize.top","port":443,"udp":true,"password":"00aa8ab3-8dfe-4a62-91b8-a6813c5c2a2a","sni":"jp.stablize.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"v2ray3.webgfw.top","port":2083,"cipher":"auto","uuid":"1ace515b-a76b-4378-83ac-0ee3833b98be","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇨🇳 中国->🇸🇬 新加坡","type":"vmess","server":"223.111.129.116","port":63087,"cipher":"auto","uuid":"","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"137.175.52.17","port":33002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"e2952737-6f10-492b-9813-19131deb71b1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
-  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"38.40.219.182","port":53362,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"hk2.x898989.xyz","port":50481,"cipher":"auto","uuid":"01e07f2e-fc00-45bb-bbf5-547f58316e18","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇺🇸_US_美国_7","type":"vmess","server":"45.136.235.11","port":41632,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,13 +105,6 @@ proxy-groups:
       - 🇰🇷 韩国 2
       - 🇯🇵 日本 1
       - 🇯🇵 日本 2
-      - 🇺🇸_US_美国_2
-      - 🇨🇳 中国->🇸🇬 新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -158,13 +144,6 @@ proxy-groups:
       - 🇰🇷 韩国 2
       - 🇯🇵 日本 1
       - 🇯🇵 日本 2
-      - 🇺🇸_US_美国_2
-      - 🇨🇳 中国->🇸🇬 新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -204,13 +183,6 @@ proxy-groups:
       - 🇰🇷 韩国 2
       - 🇯🇵 日本 1
       - 🇯🇵 日本 2
-      - 🇺🇸_US_美国_2
-      - 🇨🇳 中国->🇸🇬 新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -250,13 +222,6 @@ proxy-groups:
       - 🇰🇷 韩国 2
       - 🇯🇵 日本 1
       - 🇯🇵 日本 2
-      - 🇺🇸_US_美国_2
-      - 🇨🇳 中国->🇸🇬 新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: 📲 电报消息
     type: select
     proxies:
@@ -468,12 +433,6 @@ proxy-groups:
       - 🇺🇸 美国 18
       - 🇺🇸 美国->🇳🇱 荷兰
       - 🇺🇸 美国->🇱🇺 卢森堡
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -490,7 +449,6 @@ proxy-groups:
       - 🇸🇬 新加坡 1
       - 🇸🇬 新加坡 2
       - 🇸🇬 新加坡 3
-      - 🇨🇳 中国->🇸🇬 新加坡
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
