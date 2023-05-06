@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-06 11:26:24
+# 创建时间：2023-05-06 11:34:26
 # 使用模版：ACL4SSR_Online_Full_MultiMode.ini
-# 节点数量：20
+# 节点数量：34
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -25,7 +25,7 @@ proxies:
   - {"name":"🇺🇸 美国_2","type":"vmess","server":"137.175.41.197","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 美国_3","type":"vmess","server":"198.2.206.37","port":33012,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"🇺🇸 美国_4","type":"vmess","server":"38.54.250.57","port":51431,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 美国_5","type":"vmess","server":"142.4.114.25","port":55502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国_5","type":"vmess","server":"142.4.114.25","port":55502,"cipher":"auto","uuid":"","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 美国_6","type":"vmess","server":"146.190.89.189","port":31361,"cipher":"auto","uuid":"0f2311e2-93a9-4f6e-b6a0-633edaca90dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
   - {"name":"🇺🇸 美国_7","type":"trojan","server":"38.150.13.140","port":57063,"udp":true,"password":"Hu4CFM0wJ3","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 美国->🇳🇱 荷兰","type":"vmess","server":"156.225.67.38","port":41825,"cipher":"auto","uuid":"de491802-233e-47f2-8c6c-d19bcf5bd56b","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -41,6 +41,20 @@ proxies:
   - {"name":"🇰🇷 韩国 2","type":"ss","server":"43.201.85.49","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇯🇵 日本","type":"vmess","server":"vjp1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
   - {"name":"🇮🇳 印度","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"俄罗斯A","type":"ssr","server":"45.89.228.231","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯B","type":"ssr","server":"45.8.158.222","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯C","type":"ssr","server":"45.89.229.67","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯D","type":"ssr","server":"45.8.159.174","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯E","type":"ssr","server":"45.89.229.209","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯F","type":"ssr","server":"45.89.229.242","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯G","type":"ssr","server":"45.8.159.53","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯H","type":"ssr","server":"176.32.33.109","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯M","type":"ssr","server":"45.8.158.131","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯N","type":"ssr","server":"45.89.229.124","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯O","type":"ssr","server":"188.119.65.143","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"俄罗斯P","type":"ssr","server":"91.206.92.227","port":19365,"password":"lncn.org j8e","cipher":"dummy","obfs":"plain","protocol":"origin","group":"Lncn.org"}
+  - {"name":"翻墙党 1","type":"vmess","server":"s361.snodes.xyz","port":443,"cipher":"auto","uuid":"d8a393e2-e27e-3422-9f65-3dcdab52f6ac","alterId":1,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/panel","headers":{"host":"s361.snodes.xyz"}}}
+  - {"name":"翻墙党 2","type":"vmess","server":"s213.snodes.xyz","port":80,"cipher":"auto","uuid":"d8a393e2-e27e-3422-9f65-3dcdab52f6ac","alterId":1,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/panel","headers":{"host":"s213.snodes.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -79,6 +93,20 @@ proxy-groups:
       - 🇰🇷 韩国 2
       - 🇯🇵 日本
       - 🇮🇳 印度
+      - 俄罗斯A
+      - 俄罗斯B
+      - 俄罗斯C
+      - 俄罗斯D
+      - 俄罗斯E
+      - 俄罗斯F
+      - 俄罗斯G
+      - 俄罗斯H
+      - 俄罗斯M
+      - 俄罗斯N
+      - 俄罗斯O
+      - 俄罗斯P
+      - 翻墙党 1
+      - 翻墙党 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -105,6 +133,20 @@ proxy-groups:
       - 🇰🇷 韩国 2
       - 🇯🇵 日本
       - 🇮🇳 印度
+      - 俄罗斯A
+      - 俄罗斯B
+      - 俄罗斯C
+      - 俄罗斯D
+      - 俄罗斯E
+      - 俄罗斯F
+      - 俄罗斯G
+      - 俄罗斯H
+      - 俄罗斯M
+      - 俄罗斯N
+      - 俄罗斯O
+      - 俄罗斯P
+      - 翻墙党 1
+      - 翻墙党 2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -131,6 +173,20 @@ proxy-groups:
       - 🇰🇷 韩国 2
       - 🇯🇵 日本
       - 🇮🇳 印度
+      - 俄罗斯A
+      - 俄罗斯B
+      - 俄罗斯C
+      - 俄罗斯D
+      - 俄罗斯E
+      - 俄罗斯F
+      - 俄罗斯G
+      - 俄罗斯H
+      - 俄罗斯M
+      - 俄罗斯N
+      - 俄罗斯O
+      - 俄罗斯P
+      - 翻墙党 1
+      - 翻墙党 2
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -157,6 +213,20 @@ proxy-groups:
       - 🇰🇷 韩国 2
       - 🇯🇵 日本
       - 🇮🇳 印度
+      - 俄罗斯A
+      - 俄罗斯B
+      - 俄罗斯C
+      - 俄罗斯D
+      - 俄罗斯E
+      - 俄罗斯F
+      - 俄罗斯G
+      - 俄罗斯H
+      - 俄罗斯M
+      - 俄罗斯N
+      - 俄罗斯O
+      - 俄罗斯P
+      - 翻墙党 1
+      - 翻墙党 2
   - name: 📲 电报消息
     type: select
     proxies:
