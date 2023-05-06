@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-06 11:23:05
+# 创建时间：2023-05-06 11:24:23
 # 使用模版：ACL4SSR_Online_Full_MultiMode.ini
-# 节点数量：24
+# 节点数量：20
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -35,12 +35,8 @@ proxies:
   - {"name":"🇫🇷 法国->🇬🇧 英国","type":"vmess","server":"51.195.35.150","port":30812,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬 新加坡 1","type":"vmess","server":"27.124.45.119","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬 新加坡 2","type":"trojan","server":"li1faiubsvdnasjp2.559xp5.cn","port":443,"udp":true,"password":"f0e93980-419f-4d05-ad92-bd9859c2dbed","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡 3","type":"trojan","server":"bacmlwrkoph.559xp5.cn","port":443,"udp":true,"password":"808841b0-6730-458c-b11f-d6c33011d605","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡 4","type":"trojan","server":"li1hkv2b.559xp5.cn","port":443,"udp":true,"password":"659bb4b2-8d8d-4bd5-8db9-16ec53b71201","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡 5","type":"trojan","server":"nsafchjhtijntht.559xp5.cn","port":443,"udp":true,"password":"c519d477-7bde-430a-9667-c02b46c31d6d","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰 香港 1","type":"vmess","server":"hk4.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"30ba67cf-776c-48be-8bb5-578878830228","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
   - {"name":"🇭🇰 香港 2","type":"vmess","server":"143.92.56.218","port":52333,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港->🇳🇱 荷兰","type":"vmess","server":"156.245.8.224","port":46924,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇰🇷 韩国 1","type":"ssr","server":"kr1.vfun.icu","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX"}
   - {"name":"🇰🇷 韩国 2","type":"ss","server":"43.201.85.49","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇯🇵 日本","type":"vmess","server":"vjp1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
@@ -77,12 +73,8 @@ proxy-groups:
       - 🇫🇷 法国->🇬🇧 英国
       - 🇸🇬 新加坡 1
       - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
       - 🇭🇰 香港 1
       - 🇭🇰 香港 2
-      - 🇭🇰 香港->🇳🇱 荷兰
       - 🇰🇷 韩国 1
       - 🇰🇷 韩国 2
       - 🇯🇵 日本
@@ -107,12 +99,8 @@ proxy-groups:
       - 🇫🇷 法国->🇬🇧 英国
       - 🇸🇬 新加坡 1
       - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
       - 🇭🇰 香港 1
       - 🇭🇰 香港 2
-      - 🇭🇰 香港->🇳🇱 荷兰
       - 🇰🇷 韩国 1
       - 🇰🇷 韩国 2
       - 🇯🇵 日本
@@ -137,12 +125,8 @@ proxy-groups:
       - 🇫🇷 法国->🇬🇧 英国
       - 🇸🇬 新加坡 1
       - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
       - 🇭🇰 香港 1
       - 🇭🇰 香港 2
-      - 🇭🇰 香港->🇳🇱 荷兰
       - 🇰🇷 韩国 1
       - 🇰🇷 韩国 2
       - 🇯🇵 日本
@@ -167,12 +151,8 @@ proxy-groups:
       - 🇫🇷 法国->🇬🇧 英国
       - 🇸🇬 新加坡 1
       - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
       - 🇭🇰 香港 1
       - 🇭🇰 香港 2
-      - 🇭🇰 香港->🇳🇱 荷兰
       - 🇰🇷 韩国 1
       - 🇰🇷 韩国 2
       - 🇯🇵 日本
@@ -355,7 +335,6 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港 1
       - 🇭🇰 香港 2
-      - 🇭🇰 香港->🇳🇱 荷兰
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -393,9 +372,6 @@ proxy-groups:
     proxies:
       - 🇸🇬 新加坡 1
       - 🇸🇬 新加坡 2
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
-      - 🇸🇬 新加坡 5
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
