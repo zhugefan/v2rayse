@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-11 12:14:24
+# 创建时间：2023-05-11 12:22:04
 # 使用模版：V2RaySE 默认模版
-# 节点数量：75
+# 节点数量：73
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -26,10 +26,8 @@ proxies:
   - {"name":"🇫🇷 法国_1","type":"ssr","server":"fr-am1-5.eqsunshine.com","port":8181,"password":"RcfVcDzzB","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
   - {"name":"🇫🇷 法国_2","type":"vmess","server":"145.239.197.226","port":80,"cipher":"auto","uuid":"e8eb71e4-06bd-437a-a771-fe3b83b40290","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🇫🇷 法国->🇦🇹 奥地利","type":"ss","server":"135.125.244.103","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇫🇷 法国->🇬🇧 英国","type":"vmess","server":"51.195.35.149","port":30812,"cipher":"auto","uuid":"","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇫🇷 法国->🇬🇧 英国","type":"vmess","server":"51.195.35.149","port":30812,"cipher":"auto","uuid":"e8eb71e4-06bd-437a-a771-fe3b83b40290","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"🇬🇧 英国","type":"ss","server":"172.99.190.149","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇭🇰 香港_1","type":"vless","server":"47.243.139.146","port":57248,"uuid":"114aee70-6a42-4c83-c3c8-5b85b73b562f","tls":false,"servername":"aweikeji-YouTube-TG","network":"tcp"}
-  - {"name":"🇭🇰 香港_2","type":"vless","server":"47.243.224.56","port":16031,"uuid":"eda410a4-5f85-470e-d010-ff8f03a4a268","tls":false,"servername":"aweikeji-YouTube-TG","network":"tcp"}
   - {"name":"🇮🇳 印度","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷 伊朗","type":"vmess","server":"aparat.persianmizban.com","port":4433,"cipher":"auto","uuid":"88790a1b-f059-40c7-9c9d-b7c943b4420b","alterId":0,"tls":true,"skip-cert-verify":true,"network":""}
   - {"name":"🇯🇵 日本_1","type":"ss","server":"85.208.108.58","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
@@ -109,8 +107,6 @@ proxy-groups:
       - 🇫🇷 法国->🇦🇹 奥地利
       - 🇫🇷 法国->🇬🇧 英国
       - 🇬🇧 英国
-      - 🇭🇰 香港_1
-      - 🇭🇰 香港_2
       - 🇮🇳 印度
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
@@ -190,8 +186,6 @@ proxy-groups:
       - 🇫🇷 法国->🇦🇹 奥地利
       - 🇫🇷 法国->🇬🇧 英国
       - 🇬🇧 英国
-      - 🇭🇰 香港_1
-      - 🇭🇰 香港_2
       - 🇮🇳 印度
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
@@ -271,8 +265,6 @@ proxy-groups:
       - 🇫🇷 法国->🇦🇹 奥地利
       - 🇫🇷 法国->🇬🇧 英国
       - 🇬🇧 英国
-      - 🇭🇰 香港_1
-      - 🇭🇰 香港_2
       - 🇮🇳 印度
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
@@ -351,8 +343,6 @@ proxy-groups:
       - 🇫🇷 法国->🇦🇹 奥地利
       - 🇫🇷 法国->🇬🇧 英国
       - 🇬🇧 英国
-      - 🇭🇰 香港_1
-      - 🇭🇰 香港_2
       - 🇮🇳 印度
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
@@ -431,8 +421,6 @@ proxy-groups:
       - 🇫🇷 法国->🇦🇹 奥地利
       - 🇫🇷 法国->🇬🇧 英国
       - 🇬🇧 英国
-      - 🇭🇰 香港_1
-      - 🇭🇰 香港_2
       - 🇮🇳 印度
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
@@ -511,8 +499,6 @@ proxy-groups:
       - 🇫🇷 法国->🇦🇹 奥地利
       - 🇫🇷 法国->🇬🇧 英国
       - 🇬🇧 英国
-      - 🇭🇰 香港_1
-      - 🇭🇰 香港_2
       - 🇮🇳 印度
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
@@ -608,8 +594,6 @@ proxy-groups:
       - 🇫🇷 法国->🇦🇹 奥地利
       - 🇫🇷 法国->🇬🇧 英国
       - 🇬🇧 英国
-      - 🇭🇰 香港_1
-      - 🇭🇰 香港_2
       - 🇮🇳 印度
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
