@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-12 11:57:05
+# 创建时间：2023-05-12 12:00:41
 # 使用模版：ACL4SSR_Online_Full_MultiMode.ini
-# 节点数量：85
+# 节点数量：68
 # 节点类型：vmess, trojan, ss, ssr
 ####################################
 mixed-port: 7890
@@ -49,20 +49,8 @@ proxies:
   - {"name":"🇮🇷 伊朗","type":"vmess","server":"aparat.persianmizban.com","port":4433,"cipher":"auto","uuid":"88790a1b-f059-40c7-9c9d-b7c943b4420b","alterId":0,"tls":true,"skip-cert-verify":true,"network":""}
   - {"name":"🇯🇵 日本_1","type":"ss","server":"85.208.108.58","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
   - {"name":"🇯🇵 日本_10","type":"ss","server":"43.206.239.7","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本_11","type":"trojan","server":"aws-jp.aikun.online","port":443,"udp":true,"password":"1d636482-5f7b-41d3-ac42-241c00935fbb","sni":"aws-jp.aikun.online","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_12","type":"ssr","server":"jp2.vfun.icu","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX"}
-  - {"name":"🇯🇵 日本_13","type":"trojan","server":"43.207.172.213","port":443,"udp":true,"password":"4aeda200-44c9-4168-8f2a-a00a72176d35","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_14","type":"vmess","server":"c20s4.jjvip8.com","port":10171,"cipher":"auto","uuid":"f7eef69d-49f3-41dc-84b9-e724fc795455","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇯🇵 日本_15","type":"vmess","server":"oci.donpau.com","port":443,"cipher":"auto","uuid":"3C02DC15-56AE-7889-8936-9A2EA8FF8666","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🇯🇵 日本_2","type":"ss","server":"43.207.109.56","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇯🇵 日本_3","type":"ss","server":"43.206.210.193","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本_4","type":"ssr","server":"43.206.229.96","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.h%%�%�","protocol-param":"17422:TTp0SX"}
-  - {"name":"🇯🇵 日本_5","type":"trojan","server":"japan.tltvpn.xyz","port":443,"udp":true,"password":"022e3c2a-f4bf-423e-8c05-7f26fff93674","sni":"dl.kgvn.garenanow.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_6","type":"trojan","server":"jp2.520748.xyz","port":10001,"udp":true,"password":"e9cbf46d-b166-4325-9d83-b197c2072e17","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_7","type":"ss","server":"43.207.119.219","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本_8","type":"ss","server":"43.207.204.138","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本_9","type":"vmess","server":"43.206.157.32","port":443,"cipher":"auto","uuid":"168b4363-92b4-4994-a4e8-9e4f5015b48c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇰🇪 肯尼亚","type":"ss","server":"62.12.116.66","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇰🇷 韩国_1","type":"ss","server":"43.201.57.194","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇰🇷 韩国_2","type":"ss","server":"13.124.118.93","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇰🇷 韩国_3","type":"ss","server":"playweb.ml","port":6983,"password":"Hucloud12","cipher":"chacha20-ietf"}
@@ -75,15 +63,10 @@ proxies:
   - {"name":"🇷🇴 罗马尼亚","type":"vmess","server":"mcix.ipcf.cloud","port":443,"cipher":"auto","uuid":"CBDB1902-6B9B-4872-B20C-E94A3BD2F63D","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest"}}
   - {"name":"🇸🇨 塞舌尔","type":"vmess","server":"156.251.135.11","port":53302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"🇸🇬 新加坡_1","type":"trojan","server":"sg.520748.xyz","port":10016,"udp":true,"password":"e9cbf46d-b166-4325-9d83-b197c2072e17","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡_10","type":"ss","server":"54.251.4.111","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬 新加坡_2","type":"ss","server":"18.142.45.36","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬 新加坡_3","type":"trojan","server":"aws-sg.aikun.online","port":443,"udp":true,"password":"ff81ed1c-366d-422f-9362-6d10b116d1cf","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬 新加坡_4","type":"ss","server":"172.104.61.211","port":8080,"password":"bDqZ3kf6ft59","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":false}}
   - {"name":"🇸🇬 新加坡_5","type":"vmess","server":"8.219.216.27","port":2095,"cipher":"auto","uuid":"19350d64-6868-4a64-e501-9c0df903d788","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇸🇬 新加坡_6","type":"ss","server":"139.162.59.135","port":443,"password":"tg@herhero6","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":false}}
-  - {"name":"🇸🇬 新加坡_7","type":"trojan","server":"66.42.50.66","port":80,"udp":true,"password":"86523a68-b346-413c-ab61-85af7e36c3db","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡_8","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"name":"🇸🇬 新加坡_9","type":"vmess","server":"43.156.131.164","port":43860,"cipher":"auto","uuid":"be3fdec2-86e1-4d51-969b-704b1efc3158","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🇹🇼 台湾_1","type":"ss","server":"fn600mlines020.svcline.com","port":995,"password":"c35ab0e35b36","cipher":"aes-256-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":false}}
   - {"name":"🇹🇼 台湾_2","type":"vmess","server":"CHT.MIFJUN.ORG","port":8082,"cipher":"auto","uuid":"c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"🇹🇼 台湾_3","type":"vmess","server":"38.54.107.246","port":49423,"cipher":"auto","uuid":"ca6a1049-6a16-47d4-9784-cf01705bcf88","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
@@ -152,20 +135,8 @@ proxy-groups:
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
       - 🇯🇵 日本_10
-      - 🇯🇵 日本_11
-      - 🇯🇵 日本_12
-      - 🇯🇵 日本_13
-      - 🇯🇵 日本_14
-      - 🇯🇵 日本_15
       - 🇯🇵 日本_2
       - 🇯🇵 日本_3
-      - 🇯🇵 日本_4
-      - 🇯🇵 日本_5
-      - 🇯🇵 日本_6
-      - 🇯🇵 日本_7
-      - 🇯🇵 日本_8
-      - 🇯🇵 日本_9
-      - 🇰🇪 肯尼亚
       - 🇰🇷 韩国_1
       - 🇰🇷 韩国_2
       - 🇰🇷 韩国_3
@@ -178,15 +149,10 @@ proxy-groups:
       - 🇷🇴 罗马尼亚
       - 🇸🇨 塞舌尔
       - 🇸🇬 新加坡_1
-      - 🇸🇬 新加坡_10
       - 🇸🇬 新加坡_2
       - 🇸🇬 新加坡_3
       - 🇸🇬 新加坡_4
       - 🇸🇬 新加坡_5
-      - 🇸🇬 新加坡_6
-      - 🇸🇬 新加坡_7
-      - 🇸🇬 新加坡_8
-      - 🇸🇬 新加坡_9
       - 🇹🇼 台湾_1
       - 🇹🇼 台湾_2
       - 🇹🇼 台湾_3
@@ -243,20 +209,8 @@ proxy-groups:
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
       - 🇯🇵 日本_10
-      - 🇯🇵 日本_11
-      - 🇯🇵 日本_12
-      - 🇯🇵 日本_13
-      - 🇯🇵 日本_14
-      - 🇯🇵 日本_15
       - 🇯🇵 日本_2
       - 🇯🇵 日本_3
-      - 🇯🇵 日本_4
-      - 🇯🇵 日本_5
-      - 🇯🇵 日本_6
-      - 🇯🇵 日本_7
-      - 🇯🇵 日本_8
-      - 🇯🇵 日本_9
-      - 🇰🇪 肯尼亚
       - 🇰🇷 韩国_1
       - 🇰🇷 韩国_2
       - 🇰🇷 韩国_3
@@ -269,15 +223,10 @@ proxy-groups:
       - 🇷🇴 罗马尼亚
       - 🇸🇨 塞舌尔
       - 🇸🇬 新加坡_1
-      - 🇸🇬 新加坡_10
       - 🇸🇬 新加坡_2
       - 🇸🇬 新加坡_3
       - 🇸🇬 新加坡_4
       - 🇸🇬 新加坡_5
-      - 🇸🇬 新加坡_6
-      - 🇸🇬 新加坡_7
-      - 🇸🇬 新加坡_8
-      - 🇸🇬 新加坡_9
       - 🇹🇼 台湾_1
       - 🇹🇼 台湾_2
       - 🇹🇼 台湾_3
@@ -334,20 +283,8 @@ proxy-groups:
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
       - 🇯🇵 日本_10
-      - 🇯🇵 日本_11
-      - 🇯🇵 日本_12
-      - 🇯🇵 日本_13
-      - 🇯🇵 日本_14
-      - 🇯🇵 日本_15
       - 🇯🇵 日本_2
       - 🇯🇵 日本_3
-      - 🇯🇵 日本_4
-      - 🇯🇵 日本_5
-      - 🇯🇵 日本_6
-      - 🇯🇵 日本_7
-      - 🇯🇵 日本_8
-      - 🇯🇵 日本_9
-      - 🇰🇪 肯尼亚
       - 🇰🇷 韩国_1
       - 🇰🇷 韩国_2
       - 🇰🇷 韩国_3
@@ -360,15 +297,10 @@ proxy-groups:
       - 🇷🇴 罗马尼亚
       - 🇸🇨 塞舌尔
       - 🇸🇬 新加坡_1
-      - 🇸🇬 新加坡_10
       - 🇸🇬 新加坡_2
       - 🇸🇬 新加坡_3
       - 🇸🇬 新加坡_4
       - 🇸🇬 新加坡_5
-      - 🇸🇬 新加坡_6
-      - 🇸🇬 新加坡_7
-      - 🇸🇬 新加坡_8
-      - 🇸🇬 新加坡_9
       - 🇹🇼 台湾_1
       - 🇹🇼 台湾_2
       - 🇹🇼 台湾_3
@@ -425,20 +357,8 @@ proxy-groups:
       - 🇮🇷 伊朗
       - 🇯🇵 日本_1
       - 🇯🇵 日本_10
-      - 🇯🇵 日本_11
-      - 🇯🇵 日本_12
-      - 🇯🇵 日本_13
-      - 🇯🇵 日本_14
-      - 🇯🇵 日本_15
       - 🇯🇵 日本_2
       - 🇯🇵 日本_3
-      - 🇯🇵 日本_4
-      - 🇯🇵 日本_5
-      - 🇯🇵 日本_6
-      - 🇯🇵 日本_7
-      - 🇯🇵 日本_8
-      - 🇯🇵 日本_9
-      - 🇰🇪 肯尼亚
       - 🇰🇷 韩国_1
       - 🇰🇷 韩国_2
       - 🇰🇷 韩国_3
@@ -451,15 +371,10 @@ proxy-groups:
       - 🇷🇴 罗马尼亚
       - 🇸🇨 塞舌尔
       - 🇸🇬 新加坡_1
-      - 🇸🇬 新加坡_10
       - 🇸🇬 新加坡_2
       - 🇸🇬 新加坡_3
       - 🇸🇬 新加坡_4
       - 🇸🇬 新加坡_5
-      - 🇸🇬 新加坡_6
-      - 🇸🇬 新加坡_7
-      - 🇸🇬 新加坡_8
-      - 🇸🇬 新加坡_9
       - 🇹🇼 台湾_1
       - 🇹🇼 台湾_2
       - 🇹🇼 台湾_3
@@ -687,19 +602,8 @@ proxy-groups:
     proxies:
       - 🇯🇵 日本_1
       - 🇯🇵 日本_10
-      - 🇯🇵 日本_11
-      - 🇯🇵 日本_12
-      - 🇯🇵 日本_13
-      - 🇯🇵 日本_14
-      - 🇯🇵 日本_15
       - 🇯🇵 日本_2
       - 🇯🇵 日本_3
-      - 🇯🇵 日本_4
-      - 🇯🇵 日本_5
-      - 🇯🇵 日本_6
-      - 🇯🇵 日本_7
-      - 🇯🇵 日本_8
-      - 🇯🇵 日本_9
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -744,15 +648,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬 新加坡_1
-      - 🇸🇬 新加坡_10
       - 🇸🇬 新加坡_2
       - 🇸🇬 新加坡_3
       - 🇸🇬 新加坡_4
       - 🇸🇬 新加坡_5
-      - 🇸🇬 新加坡_6
-      - 🇸🇬 新加坡_7
-      - 🇸🇬 新加坡_8
-      - 🇸🇬 新加坡_9
       - 🇺🇸 美国->🇸🇬 新加坡
   - name: 🇰🇷 韩国节点
     type: url-test
